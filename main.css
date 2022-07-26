@@ -1,2 +1,23 @@
 @import url(reset.css);
 
+.main-header {
+    display: flex;
+    align-items: stretch;
+}
+
+.menu__ul {
+   display: none;
+   position: absolute;
+   top: 100%;
+}
+			
+/* .menu__li:hover > .menu__ul {
+display:list-item;
+}
+
+.menu__ul__li {
+min-width:170px;
+float: none;
+display: list-item;
+position: relative;
+} */
